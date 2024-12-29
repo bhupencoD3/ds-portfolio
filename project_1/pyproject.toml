@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mlprojects"
+version = "0.0.1"
+description = "A machine learning project"
+readme = "README.md"
+requires-python = ">=3.7"
+license = { text = "MIT" }
+authors = [{ name = "Bhupen", email = "bhupenparmar192@gmail.com" }]
+dependencies = [
+    "pandas",
+    "numpy",
+    "seaborn"
+]
